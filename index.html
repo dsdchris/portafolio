@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>Portafolio</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+  <link rel="shortcut icon" href="/icon.ico  " type="image/x-icon">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <script src="script.js"></script>
+  
+</head>
+
+<body>
+  <header>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check">
+        <i class="fas fa-bars" id="btn"></i>
+        <i class="fas fa-times"  id="cancel"></i>
+      </label>
+      <a href="/index.html"><img src="/logo.gif" alt="Logo" class="logo" /></a>
+      <ul>
+        <li><a href="#inicio" class="texto-con-color">Inicio</a></li>
+        <li><a href="#sobre-mi" class="texto-con-color">Sobre Mí</a></li>
+        <li><a href="#habilidades" class="texto-con-color">Habilidades</a></li>
+        <li><a href="#proyectos" class="texto-con-color">Proyectos</a></li>
+        <li><a href="#contacto" class="texto-con-color">Contacto</a></li>
+        <li><a href="#ubicacion" class="texto-con-color">Ubicación</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio">
+    <h2 class="animated-text">Inicio</h2>
+    <p>¡Encantado de conocerte! Soy Chris, un desarrollador web con una visión audaz y una mente inquieta. Únete a mí en
+      este viaje hacia la innovación y descubre cómo la tecnología puede convertirse en arte en las manos adecuadas.</p>
+  </section>
+  <section id="sobre-mi">
+    <h2 class="animated-text">Sobre Mí</h2>
+    <p>Soy un apasionado desarrollador web con una visión clara y un enfoque meticuloso en cada proyecto que emprendo.
+      Con años de inmersión en el diseño y desarrollo de interfaces de usuario, mi misión es trascender lo convencional,
+      creando experiencias digitales que no solo sean funcionales, sino también impactantes y memorables.</p>
+  </section>
+  <section id="habilidades">
+    <h2 class="animated-text">Habilidades</h2>
+    <p>Dominio de HTML, CSS y JavaScript para la creación de páginas web interactivas y dinámicas.
+      Experiencia en el uso de frameworks como React.js o Vue.js para el desarrollo frontend moderno y escalable.
+      Conocimientos en el manejo de bases de datos como MySQL o MongoDB para el almacenamiento y gestión de datos en
+      aplicaciones web.</p>
+  </section>
+  <section id="proyectos">
+    <h2 class="animated-text">Proyectos</h2>
+    <div class="tarjeta">
+      <a href="https://www.behance.net/danaulama"><img
+          src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/d05400147553939.62c49b26d8d72.gif"
+          alt="Proyecto 1" /></a>
+      <div class="descripcion">
+        <a href="https://www.behance.net/danaulama"><u></u>
+          <h3>Proyecto 1</h3></u>
+        </a>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quidem vel id perspiciatis possimus
+          autem laboriosam voluptatibus ducimus, enim fugit aut. Similique, dolorum quia? Placeat eum qui optio
+          molestias impedit.</p>
+      </div>
+    </div>
+    <div class="tarjeta">
+      <a href="https://www.behance.net/danaulama"><img
+          src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a88869120148449.60ac217cdc592.gif"
+          alt="Proyecto 2" /></a>
+      <div class="descripcion">
+        <a href="https://www.behance.net/danaulama">
+          <h3>Proyecto 2</h3>
+        </a>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fugiat odit, illo quibusdam molestiae delectus
+          dolore, mollitia suscipit dolorum explicabo modi, quos fugit. Hic, blanditiis rerum fugit labore ex
+          voluptates!</p>
+      </div>
+    </div>
+    <div class="tarjeta">
+      <a href="https://www.behance.net/danaulama"><img
+          src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/226ab1147418039.62c298760e03a.gif"
+          alt="Proyecto 3" /></a>
+      <div class="descripcion">
+        <a href="https://www.behance.net/danaulama">
+          <h3>Proyecto 3</h3>
+        </a>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis harum minus ipsum eum dolorem temporibus
+          pariatur earum odio maiores neque et, expedita, voluptatibus optio exercitationem praesentium nihil delectus
+          sequi dolore!</p>
+      </div>
+    </div>
+    <!-- Agrega más tarjetas según sea necesario -->
+  </section>
+
+  <section id="contacto">
+    <h2 class="animated-text">Contacto</h2>
+    <div class="newsletter-form">
+      <form id="contact-form">
+        <input type="email" id="emailInput" placeholder="Tu correo electrónico">
+        <button id="submitButton" disabled>Enviar</button>
+      </form>
+    </div>
+  </section>
+  <section id="ubicacion">
+    <h2 class="animated-text">Ubicación</h2>
+    <p>SENA - Sede TIC
+      Cra. 54 #68-80, Nte. Centro Historico, Barranquilla, Atlántico</p>
+    <div class="mapa-responsive">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.545621160604!2d-74.80065412585805!3d10.9976289550765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42d0b893fd6e9%3A0xb24654761168258f!2sSENA%20-%20Sede%20TIC!5e0!3m2!1ses!2sco!4v1708319668313!5m2!1ses!2sco&amp;output=embed&amp;hl=en&amp;msa=0&amp;msid=110636424226529783903.0004561d03d88335a204e&amp;t=m&amp;ll=10.996948,-74.800522&amp;z=16&amp;output=embed"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2024 Chris Portafolio</p>
+  </footer>
+</body>
+
+
+</html>
